@@ -155,3 +155,6 @@ bower.json
 
 # Ignore pow environment settings
 .powenv
+
+# Ignore spring/ directory to prevent conflicts between Spring and Git when using Guard
+/spring/*.pid
